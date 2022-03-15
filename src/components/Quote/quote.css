@@ -1,0 +1,49 @@
+.quote-container {
+  position: relative;
+}
+.quote {
+  background-color: var(--bg1);
+  color: var(--tx2);
+  padding: 30px;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  transform: skewX(-18deg);
+  -webkit-transform: skewX(-18deg);
+  -moz-transform: skewX(-18deg);
+  -ms-transform: skewX(-18deg);
+  -o-transform: skewX(-18deg);
+}
+.anime,
+.character {
+  display: inline-block;
+  color: var(--tx2);
+  font-size: 24px;
+  padding: 12px 20px;
+  letter-spacing: 0.5px;
+  margin: -10px 0; /*-45px*/
+  transform: skewX(-18deg);
+  -webkit-transform: skewX(-18deg);
+  -moz-transform: skewX(-18deg);
+  -ms-transform: skewX(-18deg);
+  -o-transform: skewX(-18deg);
+}
+.anime {
+  background: lightcoral;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.character {
+  background: lightseagreen;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media (max-width: 576px) {
+  .quote,
+  .anime,
+  .character {
+    font-size: 18px;
+  }
+}

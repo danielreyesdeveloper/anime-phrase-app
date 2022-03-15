@@ -1,0 +1,57 @@
+.App {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-title {
+  text-align: center;
+}
+.main-title .title {
+  font-size: 68px;
+  color: var(--tx2);
+  border-bottom: 8px solid var(--tx1);
+  display: inline-block;
+  text-shadow: 4px 0 0 #47484b, -4px 0 0 #47484b, 0 4px 0 #47484b,
+    0 -4px 0 #47484b, 4px 4px #47484b, -4px -4px 0 #47484b, 4px -4px 0 #47484b,
+    -4px 4px 0 #47484b;
+  margin: 0 0 80px;
+}
+@media (max-width: 576px) {
+  .main-title .title {
+    font-size: 54px;
+    margin: 0 0 60px;
+  }
+}
+.phrase-content {
+  text-align: center;
+  margin-top: 60px;
+}
+.phrase-btn {
+  background-color: #f4f4f4;
+  color: var(--tx1);
+  font-size: 26px;
+  font-weight: bold;
+  outline: none;
+  border: 5px solid var(--tx1);
+  padding: 14px 28px;
+  transition: 0.15s ease;
+  -webkit-transition: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+}
+.phrase-btn:hover {
+  background: var(--tx1);
+  color: #f4f4f4;
+  border: 5px solid var(--tx1);
+  cursor: pointer;
+}

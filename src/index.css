@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+:root {
+  --bg1: #404040;
+  --tx1: #47484b;
+  --tx2: #ffffff;
+}
+body {
+  background-image: radial-gradient(
+    circle,
+    #e7b1ff,
+    #e5bfff,
+    #e5cdff,
+    #e7d9fe,
+    #ebe5fb,
+    #efebfa,
+    #f3f1f9,
+    #f7f7f7,
+    #f9f9f9,
+    #fbfbfb,
+    #fdfdfd,
+    #ffffff
+  );
+  color: #47484b;
+  font-family: "Bebas Neue", cursive;
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
