@@ -1,10 +1,10 @@
 {
   "name": "phrase-app",
   "version": "0.1.0",
-  "homepage":"https://danielreyesdeveloper.github.io/anime-phrase-app",
+  "homepage": "https://danielreyesdeveloper.github.io/anime-phrase-app",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -19,5 +19,17 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
     "vite": "^2.7.2"
-  }
+  },
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielreyesdeveloper/anime-phrase-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielreyesdeveloper/anime-phrase-app/issues"
+  },
+  "description": ""
 }
